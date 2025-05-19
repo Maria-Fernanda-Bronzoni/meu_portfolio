@@ -1,0 +1,60 @@
+<!-- Página de Contato -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Configurações básicas da página -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato - Maria Fernanda Bronzoni</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="stylesPages/styles.css" />
+
+    <!-- Script JS -->
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <h1 class="mainTitle">Maria Fernanda Bronzoni</h1>
+      <nav>
+        <a class="navLink" href="index.html">Sobre mim</a>
+        <a class="navLink" href="formacao.html">Formação</a>
+        <a class="navLink" href="portfolio.html">Portfólio</a>
+        <a class="navLink" href="contato.html">Contato</a>
+      </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+      <h2 class="sectionTitle">Fale comigo</h2>
+      <p class="sectionDescription">
+        Sempre aberta a novos projetos, ideias ou conversas sobre tecnologia. Vamos trocar uma ideia!
+      </p>
+
+      <!-- Formulário -->
+      <form class="contactForm" action="mailto:nandabronzoni67i@email.com" method="POST" enctype="text/plain">
+        <!-- nome do visitante -->
+        <label for="nome">Seu nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
+
+        <!-- e-mail do visitante -->
+        <label for="email">Seu e-mail</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required />
+
+        <!-- mensagem do visitante -->
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui..." rows="5" required></textarea>
+
+        <!-- Botão para enviar o formulário -->
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <p>&copy; 2025 Maria Fernanda Bronzoni. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
